@@ -1,0 +1,53 @@
+@charset "UTF-08";
+
+body{
+    background: #d2d2c1 url('../_imagens/fundo.png');
+}
+
+h2{ 
+    color: rgb(83, 78, 71);
+
+}
+
+.centralizar{
+    text-align: center;
+}
+
+div#menu {
+    background-color: #cab9a0;
+    width: 900px;
+    margin-top: -20px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 0px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+nav a{
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+}
+
+
+div#pag_principal{
+    width: 850px;
+    background-color: #fcf4e2;
+    margin-top: -20px;
+    padding: 25px;
+}
+
+div#conteudo{
+    margin-top: -20px;
+}
+
+footer{
+    width: 900px;
+}
